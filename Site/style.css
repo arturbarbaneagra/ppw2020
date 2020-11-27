@@ -1,0 +1,127 @@
+.page {
+    padding : 5px;
+}
+.header {
+    background : rgb(50, 122, 180);
+    height : 120px;
+    width : 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.back-color {
+}
+#logo {
+    width : 100px;
+    height : 100%;
+    border : solid 2px black;
+    border-radius: 30px;
+}
+.main-header {
+    width: 1170px;
+    padding: 1px;
+    display : flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-text {
+    color: aliceblue;
+    font-size : 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-wrap {
+    height: 30px;
+}
+.heading-title {
+    margin: 20px 0 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+nav a {
+    border : solid 2px black;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #272727;
+    font-size: 30px;
+    height: 50px;
+    margin: 10px;
+    width : 100%;
+    text-align: center;
+    line-height: 45px;
+}
+
+.product {
+    width : 1140px;
+}
+.popular {
+    display: flex;
+    flex-direction: column;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.new-title {
+    padding : 0 10px;
+    background: #ffffff;
+    color: #333333;
+    text-align: center;
+    font-size: 30px;
+}
+.line {
+    border : solid 1px #cccccc;
+    width: 100%;
+    height: 0;
+}
+.items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+.item {
+    margin: 5px;
+    text-align: center;
+}
+.item img {
+    width: 200px;
+    height: 150px;
+}
+.item p {
+    text-align: justify;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #272727;
+    height : auto;
+    width : 100%;
+}
+.footer-info {
+    display: flex;
+    flex-direction:column;
+}
+footer  {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    color: #616161;
+    display: flex;
+    justify-content: center;
+}
+.footer-about {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-info {
+    width: 1170px;
+}
+
