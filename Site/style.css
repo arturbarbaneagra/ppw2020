@@ -3,7 +3,7 @@
 }
 .header {
     background : rgb(50, 122, 180);
-    height : 120px;
+    height : 115px;
     width : 100%;
     display: flex;
     justify-content:center;
@@ -58,7 +58,7 @@ nav a {
     line-height: 45px;
 }
 
-.product {
+.product, .heading-img , .return-content{
     width : 1140px;
 }
 .popular {
@@ -91,10 +91,27 @@ nav a {
 .item {
     margin: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 226px;
+    border: 1px solid #cccccc;
+    padding: 3px;
+    background-color: #abc6e6;
+    border-radius: 5px;
 }
 .item img {
     width: 200px;
     height: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.popular .item img, .recommended .item img {
+    width: 150px;
+    height: 200px;
+}
+.item span {
+    font-size : 30px;
 }
 .item p {
     text-align: justify;
@@ -125,3 +142,84 @@ footer  {
     width: 1170px;
 }
 
+footer li {
+    list-style: none;
+    font-size: 18px;
+}
+ footer a:hover {
+    color:white;
+}
+footer ol {
+  padding: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #616161;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts-info ol{
+    padding: 0;
+}
+
+.contacts-info li {
+    list-style: none;
+}
+.contacts-info a, .contacts-info span {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.office {
+    margin-bottom: 30px;
+}
+
+.return-content h1{
+    text-align: center;
+}
+.return-content p, .return-content li {
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.4;
+}
+.return-content h2 {
+    font-size: 30px;
+}
+.consumator {
+    list-style: none;
+    padding: 0;
+}
+
+.delivery-mod .item, .pay-mod .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.delivery-mod img {
+    width: 336px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.pay-mod img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.delivery-mod span, .pay-mod span {
+    font-size: 25px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.delivery-mod p, .pay-mod p {
+    font-size: 20px;
+    color: #616161;
+} 
